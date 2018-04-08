@@ -11,7 +11,7 @@
 
 start(_StartType, _StartArgs) ->
     application:ensure_all_started(ranch),
-    {ok, _} = ranch:start_listener(ecache,
+    {ok, _} = ranch:start_listener(ecache, 10,
 		ranch_tcp, [{port, 5554}], ecache_protocol, []),
     ecache_sup:start_link().
 
