@@ -50,8 +50,11 @@ init(Ref, Socket, Transport, _Opts = []) ->
     ok = ranch:accept_ack(Ref),
     case Transport of 
         ranch_tcp ->
-            ok = Transport:setopts(Socket, [{active, once}, 
+            ok = Transport:setopts(Socket, [{active, true}, 
                                             binary, 
+                                            {reuseaddr, true},
+                                            {high_watermark, 131072},
+                                            {low_watermark, 65536},
                                             {packet, 2}]);
         ranch_ssl ->
             ok = Transport:setopts(Socket, [{active, once}, 
