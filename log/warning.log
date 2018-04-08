@@ -1,0 +1,358 @@
+2018-04-08 09:37:11.413 [warning] <0.163.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3281>, SockState = {sock_state,#Port<0.3281>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:37:11.414 [warning] <0.162.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3280>, SockState = {sock_state,#Port<0.3280>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:38:34.573 [warning] <0.164.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3282>, SockState = {sock_state,#Port<0.3282>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:41:00.769 [warning] <0.166.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3283>, SockState = {sock_state,#Port<0.3283>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:42:16.886 [warning] <0.168.0>@ecache_protocol:handle_info:113 timeout=<0.168.0>, SockState = {sock_state,#Port<0.3284>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:43:09.638 [warning] <0.170.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3286>, SockState = {sock_state,#Port<0.3286>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:43:09.638 [warning] <0.169.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3285>, SockState = {sock_state,#Port<0.3285>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:45:06.736 [warning] <0.172.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3287>, SockState = {sock_state,#Port<0.3287>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:45:21.448 [warning] <0.174.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3288>, SockState = {sock_state,#Port<0.3288>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:47:16.710 [warning] <0.175.0>@ecache_protocol:handle_info:113 timeout=<0.175.0>, SockState = {sock_state,#Port<0.3289>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:50:01.110 [warning] <0.178.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3290>, SockState = {sock_state,#Port<0.3290>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:51:18.986 [warning] <0.180.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3292>, SockState = {sock_state,#Port<0.3292>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:51:18.986 [warning] <0.179.0>@ecache_protocol:handle_info:107 tcp_closed, Socket = #Port<0.3291>, SockState = {sock_state,#Port<0.3291>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:01:16.420 [warning] <0.187.0>@ecache_protocol:handle_info:113 timeout=<0.187.0>, SockState = {sock_state,#Port<0.3295>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:01:38.942 [warning] <0.189.0>@ecache_protocol:handle_info:113 timeout=<0.189.0>, SockState = {sock_state,#Port<0.3358>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:01:41.724 [warning] <0.190.0>@ecache_protocol:handle_info:113 timeout=<0.190.0>, SockState = {sock_state,#Port<0.3359>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:02:54.721 [warning] <0.101.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:03:27.036 [warning] <0.101.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:03:34.437 [warning] <0.150.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:03:57.037 [warning] <0.101.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:04:04.438 [warning] <0.150.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:04:27.037 [warning] <0.101.0>@tcp_client:loop:56 error, abadf
+2018-04-08 10:04:27.036 [warning] <0.194.0>@ecache_protocol:handle_info:113 timeout=<0.194.0>, SockState = {sock_state,#Port<0.3485>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:04:34.438 [warning] <0.196.0>@ecache_protocol:handle_info:113 timeout=<0.196.0>, SockState = {sock_state,#Port<0.3486>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:04:34.439 [warning] <0.150.0>@tcp_client:loop:56 error, abadf
+2018-04-08 10:04:34.440 [warning] <0.152.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:05:04.442 [warning] <0.152.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:05:34.444 [warning] <0.152.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:06:04.446 [warning] <0.152.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:06:34.448 [warning] <0.152.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:07:04.449 [warning] <0.152.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:07:04.450 [warning] <0.154.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:07:34.448 [warning] <0.197.0>@ecache_protocol:handle_info:113 timeout=<0.197.0>, SockState = {sock_state,#Port<0.3487>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:07:34.449 [warning] <0.152.0>@tcp_client:loop:56 error, abadf
+2018-04-08 10:07:34.453 [warning] <0.154.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:08:04.454 [warning] <0.154.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:08:04.455 [warning] <0.155.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:08:34.454 [warning] <0.199.0>@ecache_protocol:handle_info:113 timeout=<0.199.0>, SockState = {sock_state,#Port<0.3488>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:08:34.454 [warning] <0.154.0>@tcp_client:loop:56 error, abadf
+2018-04-08 10:08:34.456 [warning] <0.155.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:09:04.456 [warning] <0.201.0>@ecache_protocol:handle_info:113 timeout=<0.201.0>, SockState = {sock_state,#Port<0.3489>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:09:04.456 [warning] <0.155.0>@tcp_client:loop:56 error, abadf
+2018-04-08 10:09:04.458 [warning] <0.157.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:09:34.460 [warning] <0.157.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:10:04.462 [warning] <0.157.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:10:34.464 [warning] <0.157.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:11:04.465 [warning] <0.157.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:11:04.466 [warning] <0.158.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:11:34.464 [warning] <0.202.0>@ecache_protocol:handle_info:113 timeout=<0.202.0>, SockState = {sock_state,#Port<0.3490>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:11:34.465 [warning] <0.157.0>@tcp_client:loop:56 error, abadf
+2018-04-08 10:11:34.471 [warning] <0.158.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:12:04.473 [warning] <0.158.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:12:34.475 [warning] <0.158.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:13:04.477 [warning] <0.158.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:13:34.479 [warning] <0.158.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:14:04.481 [warning] <0.158.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:14:34.483 [warning] <0.158.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:15:04.486 [warning] <0.158.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:15:34.486 [warning] <0.158.0>@tcp_client:loop:58 error, timeout
+2018-04-08 10:16:04.486 [warning] <0.204.0>@ecache_protocol:handle_info:113 timeout=<0.204.0>, SockState = {sock_state,#Port<0.3491>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:16:04.486 [warning] <0.158.0>@tcp_client:loop:56 error, abadf
+2018-04-08 10:16:34.487 [warning] <0.208.0>@ecache_protocol:handle_info:113 timeout=<0.208.0>, SockState = {sock_state,#Port<0.3492>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:17:04.489 [warning] <0.209.0>@ecache_protocol:handle_info:113 timeout=<0.209.0>, SockState = {sock_state,#Port<0.3493>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:18:08.272 [warning] <0.211.0>@ecache_protocol:handle_info:113 timeout=<0.211.0>, SockState = {sock_state,#Port<0.3494>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:18:17.202 [warning] <0.212.0>@ecache_protocol:handle_info:113 timeout=<0.212.0>, SockState = {sock_state,#Port<0.3495>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:58:34.285 [warning] <0.170.0>@tcp_client:loop:59 error, timeout
+2018-04-08 10:59:04.273 [warning] <0.170.0>@tcp_client:loop:59 error, timeout
+2018-04-08 10:59:34.274 [warning] <0.170.0>@tcp_client:loop:59 error, timeout
+2018-04-08 10:59:34.275 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 10:59:34.576 [warning] <0.170.0>@tcp_client:loop:57 error, abadf
+2018-04-08 10:59:34.575 [warning] <0.228.0>@ecache_protocol:handle_info:113 timeout=<0.228.0>, SockState = {sock_state,#Port<0.3496>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 11:00:04.277 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:00:59.637 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:01:29.639 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:01:59.641 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:02:40.798 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:03:10.800 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:03:40.802 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:04:10.804 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:04:40.806 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:05:10.810 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:05:40.812 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:06:10.814 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:06:40.815 [warning] <0.171.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:07:10.814 [warning] <0.229.0>@ecache_protocol:handle_info:112 timeout=<0.229.0>, SockState = {sock_state,#Port<0.3497>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 11:07:10.815 [warning] <0.171.0>@tcp_client:loop:57 error, abadf
+2018-04-08 11:07:10.818 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:07:40.820 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:08:10.822 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:08:40.824 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:09:10.826 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:09:40.828 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:10:10.830 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:10:40.832 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:11:10.834 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:11:40.836 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:12:10.838 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:12:40.840 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:13:10.842 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:13:40.845 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:14:10.848 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:14:40.850 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:15:10.852 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:15:40.854 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:16:10.856 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:16:40.858 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:17:10.860 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:17:40.863 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:18:10.864 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:18:40.866 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:19:10.868 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:19:40.870 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:20:10.872 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:20:40.875 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:21:10.877 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:21:40.879 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:22:10.881 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:22:40.883 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:23:10.885 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:23:40.888 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:24:10.890 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:24:40.891 [warning] <0.177.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:24:40.892 [warning] <0.181.0>@tcp_client:loop:57 error, abadf
+2018-04-08 11:24:40.893 [warning] <0.178.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:24:40.892 [warning] <0.246.0>@ecache_protocol:handle_info:135 Info = {tcp,#Port<0.3504>,<<131,108,0,0,0,3,104,2,109,0,0,0,6,100,101,118,105,99,101,109,0,0,0,9,99,108,105,101,110,116,95,105,100,104,2,109,0,0,0,13,109,101,115,115,97,103,101,95,116,114,97,105,116,109,0,0,0,9,107,101,101,112,97,108,105,118,101,104,2,109,0,0,0,8,109,115,103,95,116,121,112,101,109,0,0,0,9,107,101,101,112,97,108,105,118,101,106>>}, SockState = ok
+2018-04-08 11:24:46.370 [warning] <0.179.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:25:10.891 [warning] <0.177.0>@tcp_client:loop:57 error, abadf
+2018-04-08 11:25:10.895 [warning] <0.178.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:25:10.890 [warning] <0.234.0>@ecache_protocol:handle_info:115 timeout=<0.234.0>, SockState = {sock_state,#Port<0.3499>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 11:25:16.371 [warning] <0.179.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:25:40.892 [warning] <0.244.0>@ecache_protocol:handle_info:115 timeout=<0.244.0>, SockState = {sock_state,#Port<0.3502>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 11:25:40.893 [warning] <0.178.0>@tcp_client:loop:57 error, abadf
+2018-04-08 11:25:46.370 [warning] <0.179.0>@tcp_client:loop:57 error, abadf
+2018-04-08 11:25:46.369 [warning] <0.245.0>@ecache_protocol:handle_info:115 timeout=<0.245.0>, SockState = {sock_state,#Port<0.3503>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 11:27:34.908 [warning] <0.189.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:27:34.910 [warning] <0.189.0>@tcp_client:loop:57 error, abadf
+2018-04-08 11:27:34.909 [warning] <0.249.0>@ecache_protocol:handle_info:135 Info = {tcp,#Port<0.3505>,<<131,108,0,0,0,3,104,2,109,0,0,0,6,100,101,118,105,99,101,109,0,0,0,9,99,108,105,101,110,116,95,105,100,104,2,109,0,0,0,13,109,101,115,115,97,103,101,95,116,114,97,105,116,109,0,0,0,9,107,101,101,112,97,108,105,118,101,104,2,109,0,0,0,8,109,115,103,95,116,121,112,101,109,0,0,0,9,107,101,101,112,97,108,105,118,101,106>>}, SockState = ok
+2018-04-08 11:38:05.554 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:38:35.555 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:39:05.556 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:39:35.557 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:40:05.558 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:40:35.560 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:41:05.560 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:41:35.561 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:42:05.562 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:42:35.563 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:43:05.564 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:43:35.565 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:44:05.566 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:44:35.567 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:45:05.569 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:45:35.571 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:46:05.573 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:46:35.575 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:47:05.577 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:47:35.579 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:48:05.581 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:48:35.583 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:49:05.586 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:49:35.587 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:50:05.589 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:50:35.591 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:51:05.593 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:51:35.595 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:52:05.597 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:52:35.599 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:53:05.601 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:53:35.603 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:54:05.605 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:54:35.607 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:55:05.609 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:55:35.611 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:56:05.613 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:56:35.615 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:57:05.617 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:57:35.619 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:58:05.621 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:58:35.623 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:59:05.625 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 11:59:35.627 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 12:00:05.629 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 12:00:35.631 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 12:01:05.632 [warning] <0.195.0>@tcp_client:loop:59 error, timeout
+2018-04-08 12:01:35.633 [warning] <0.255.0>@ecache_protocol:handle_info:115 timeout=<0.255.0>, SockState = {sock_state,#Port<0.3507>,ranch_tcp,'STATUS_AUTHED',undefined}
+2018-04-08 12:01:35.634 [warning] <0.195.0>@tcp_client:loop:57 error, abadf
+2018-04-08 12:01:35.634 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:02:05.636 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:02:35.638 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:03:05.640 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:03:35.644 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:04:05.648 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:04:35.652 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:05:05.654 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:05:35.656 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:06:05.660 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:06:35.662 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:07:05.665 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:07:35.666 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:08:05.670 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:08:35.674 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:09:05.678 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:09:35.680 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:10:05.682 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:10:35.686 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:11:05.687 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:11:35.689 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:12:05.693 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:12:35.549 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:13:05.553 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:13:35.703 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:14:05.706 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:14:35.708 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:15:05.710 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:15:35.713 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 12:16:05.715 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:06:45.011 [warning] <0.200.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:06:45.012 [warning] <0.200.0>@tcp_client:loop:58 error, abadf
+2018-04-08 13:06:45.011 [warning] <0.267.0>@ecache_protocol:handle_info:115 timeout=<0.267.0>, SockState = {sock_state,#Port<0.3510>,ranch_tcp,'STATUS_AUTHED',undefined}
+2018-04-08 13:17:41.668 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:18:11.670 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:18:41.672 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:19:11.674 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:19:41.676 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:20:11.678 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:20:41.680 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:21:11.682 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:21:41.685 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:22:11.686 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:22:41.688 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:23:11.691 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:23:41.692 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:24:24.423 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:24:54.426 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:25:24.429 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:25:54.430 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:26:24.432 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:26:54.434 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:27:24.436 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:27:54.438 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:28:24.440 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:28:54.442 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:29:24.444 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:29:54.446 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:30:24.448 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:30:54.450 [warning] <0.205.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:30:55.500 [warning] <0.205.0>@tcp_client:loop:58 error, abadf
+2018-04-08 13:33:07.556 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:33:37.558 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:34:07.560 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:34:37.562 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:35:07.565 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:35:37.567 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:36:07.568 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:36:37.570 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:37:07.572 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:37:37.574 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:38:07.576 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:38:37.578 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:39:07.580 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:39:37.582 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:40:07.584 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:40:37.586 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:41:07.588 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:41:37.591 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:42:07.593 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:42:37.596 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:43:07.600 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:43:37.601 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:44:07.605 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:44:37.607 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:45:07.609 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:45:37.611 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:46:07.613 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:46:37.615 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:47:07.617 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:47:37.619 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:48:07.621 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:48:37.623 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:49:07.625 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:49:37.627 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:50:07.629 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:50:37.631 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:51:07.635 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:51:37.639 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:52:07.642 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:52:37.644 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:53:07.646 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:53:37.648 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:54:07.650 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:54:37.652 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:55:07.654 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:55:37.656 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:56:07.658 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:56:37.660 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:57:07.662 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:57:37.664 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:58:07.666 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:58:37.668 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:59:07.670 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 13:59:37.672 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:00:07.674 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:00:37.676 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:01:07.678 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:01:37.680 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:02:07.682 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:02:37.684 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:03:07.686 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:03:37.689 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:04:07.690 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:04:37.692 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:05:58.016 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:06:28.025 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:06:58.026 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:07:28.027 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:07:58.028 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:08:28.030 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:08:58.032 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:09:28.034 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:09:58.036 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:10:28.038 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:10:58.041 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:11:28.043 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:11:58.045 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:12:28.047 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:12:58.049 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:13:28.051 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:13:58.053 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:14:28.056 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:14:58.057 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:15:28.060 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:15:58.061 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:16:28.063 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:16:58.065 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:17:28.067 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:17:58.070 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:18:28.071 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:18:58.073 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:19:28.075 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:19:58.077 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:20:28.079 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:20:58.081 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:21:28.083 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:21:58.085 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:22:28.087 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:22:58.089 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:23:28.091 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:23:58.094 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:24:28.096 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:24:58.098 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:25:28.100 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:25:58.102 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:26:28.104 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:26:58.106 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:27:28.108 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:27:58.110 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:28:28.112 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:28:58.114 [warning] <0.213.0>@tcp_client:loop:60 error, timeout

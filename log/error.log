@@ -1,0 +1,179 @@
+2018-04-08 09:35:24.573 [error] <0.160.0>@ecache_protocol:terminate:147 Reason = {function_clause,[{proplists,get_value,[msg_type,<<"{\"title\":\"hisss\"}">>,undefined],[{file,"proplists.erl"},{line,226}]},{ecache_protocol,handle_info,2,[{file,"src/ecache_protocol.erl"},{line,75}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}, SockState = {sock_state,#Port<0.3279>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:35:24.573 [error] <0.160.0> gen_server <0.160.0> terminated with reason: no function clause matching proplists:get_value(msg_type, <<"{\"title\":\"hisss\"}">>, undefined) line 226
+2018-04-08 09:35:24.573 [error] <0.160.0> CRASH REPORT Process <0.160.0> with 0 neighbours exited with reason: no function clause matching proplists:get_value(msg_type, <<"{\"title\":\"hisss\"}">>, undefined) line 226 in gen_server:terminate/7 line 812
+2018-04-08 09:35:24.573 [error] <0.160.0> Ranch listener ecache terminated with reason: no function clause matching proplists:get_value(msg_type, <<"{\"title\":\"hisss\"}">>, undefined) line 226
+2018-04-08 09:37:11.413 [error] <0.163.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3281>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:37:11.414 [error] <0.162.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3280>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:38:34.573 [error] <0.164.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3282>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:41:00.769 [error] <0.166.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3283>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:42:16.886 [error] <0.168.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3284>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:42:16.887 [error] <0.168.0> gen_server <0.168.0> terminated with reason: timeout
+2018-04-08 09:42:16.887 [error] <0.168.0> CRASH REPORT Process <0.168.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 09:42:16.887 [error] <0.168.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 09:43:09.638 [error] <0.170.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3286>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:43:09.638 [error] <0.169.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3285>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:45:06.736 [error] <0.172.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3287>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:45:21.448 [error] <0.174.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3288>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:47:16.710 [error] <0.175.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3289>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:47:16.711 [error] <0.175.0> gen_server <0.175.0> terminated with reason: timeout
+2018-04-08 09:47:16.711 [error] <0.175.0> CRASH REPORT Process <0.175.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 09:47:16.711 [error] <0.175.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 09:50:01.110 [error] <0.178.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3290>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:51:18.986 [error] <0.180.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3292>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:51:18.986 [error] <0.179.0>@ecache_protocol:terminate:147 Reason = normal, SockState = {sock_state,#Port<0.3291>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:51:42.505 [error] <0.182.0>@ecache_protocol:terminate:147 Reason = {function_clause,[{proplists,get_value,[msg_type,<<131,108,0,0,0,1,104,2,109,0,0,0,5,116,105,116,108,101,109,0,0,0,5,104,105,115,115,115,106>>,undefined],[{file,"proplists.erl"},{line,226}]},{ecache_protocol,handle_info,2,[{file,"src/ecache_protocol.erl"},{line,75}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}, SockState = {sock_state,#Port<0.3293>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 09:51:42.506 [error] <0.182.0> gen_server <0.182.0> terminated with reason: no function clause matching proplists:get_value(msg_type, <<131,108,0,0,0,1,104,2,109,0,0,0,5,116,105,116,108,101,109,0,0,0,5,104,105,115,115,115,106>>, undefined) line 226
+2018-04-08 09:51:42.506 [error] <0.182.0> CRASH REPORT Process <0.182.0> with 0 neighbours exited with reason: no function clause matching proplists:get_value(msg_type, <<131,108,0,0,0,1,104,2,109,0,0,0,5,116,105,116,108,101,109,0,0,0,5,104,105,115,115,115,106>>, undefined) line 226 in gen_server:terminate/7 line 812
+2018-04-08 09:51:42.506 [error] <0.182.0> Ranch listener ecache terminated with reason: no function clause matching proplists:get_value(msg_type, <<131,108,0,0,0,1,104,2,109,0,0,0,5,116,105,116,108,101,109,0,0,0,5,104,105,115,115,115,106>>, undefined) line 226
+2018-04-08 10:00:03.935 [error] <0.188.0>@ecache_protocol:terminate:147 Reason = {undef,[{jsx,encode,[[{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"result">>,<<"error">>},{<<"data">>,[{<<"code">>,<<"401">>},{<<"desc">>,<<"no auth">>}]}]],[]},{ecache_protocol,handle_info,2,[{file,"src/ecache_protocol.erl"},{line,80}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}, SockState = {sock_state,#Port<0.3296>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:00:03.936 [error] <0.188.0> gen_server <0.188.0> terminated with reason: {'module could not be loaded',[{jsx,encode,[[{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"result">>,<<"error">>},{<<"data">>,[{<<"code">>,<<"401">>},{<<"desc">>,<<"no auth">>}]}]],[]},{ecache_protocol,handle_info,2,[{file,"src/ecache_protocol.erl"},{line,80}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,...}]}]}
+2018-04-08 10:00:03.936 [error] <0.188.0> CRASH REPORT Process <0.188.0> with 0 neighbours exited with reason: call to undefined function jsx:encode([{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"...">>,...},...]) in gen_server:terminate/7 line 812
+2018-04-08 10:00:03.936 [error] <0.188.0> Ranch listener ecache terminated with reason: call to undefined function jsx:encode([{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"...">>,...},...])
+2018-04-08 10:00:16.427 [error] <0.191.0>@ecache_protocol:terminate:147 Reason = {undef,[{jsx,encode,[[{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"result">>,<<"error">>},{<<"data">>,[{<<"code">>,<<"401">>},{<<"desc">>,<<"no auth">>}]}]],[]},{ecache_protocol,handle_info,2,[{file,"src/ecache_protocol.erl"},{line,80}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}, SockState = {sock_state,#Port<0.3360>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:00:16.428 [error] <0.191.0> gen_server <0.191.0> terminated with reason: {'module could not be loaded',[{jsx,encode,[[{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"result">>,<<"error">>},{<<"data">>,[{<<"code">>,<<"401">>},{<<"desc">>,<<"no auth">>}]}]],[]},{ecache_protocol,handle_info,2,[{file,"src/ecache_protocol.erl"},{line,80}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,...}]}]}
+2018-04-08 10:00:16.428 [error] <0.191.0> CRASH REPORT Process <0.191.0> with 0 neighbours exited with reason: call to undefined function jsx:encode([{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"...">>,...},...]) in gen_server:terminate/7 line 812
+2018-04-08 10:00:16.428 [error] <0.191.0> Ranch listener ecache terminated with reason: call to undefined function jsx:encode([{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"...">>,...},...])
+2018-04-08 10:00:27.679 [error] <0.192.0>@ecache_protocol:terminate:147 Reason = {undef,[{jsx,encode,[[{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"result">>,<<"error">>},{<<"data">>,[{<<"code">>,<<"401">>},{<<"desc">>,<<"no auth">>}]}]],[]},{ecache_protocol,handle_info,2,[{file,"src/ecache_protocol.erl"},{line,80}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}, SockState = {sock_state,#Port<0.3422>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:00:27.680 [error] <0.192.0> gen_server <0.192.0> terminated with reason: {'module could not be loaded',[{jsx,encode,[[{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"result">>,<<"error">>},{<<"data">>,[{<<"code">>,<<"401">>},{<<"desc">>,<<"no auth">>}]}]],[]},{ecache_protocol,handle_info,2,[{file,"src/ecache_protocol.erl"},{line,80}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,...}]}]}
+2018-04-08 10:00:27.680 [error] <0.192.0> CRASH REPORT Process <0.192.0> with 0 neighbours exited with reason: call to undefined function jsx:encode([{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"...">>,...},...]) in gen_server:terminate/7 line 812
+2018-04-08 10:00:27.680 [error] <0.192.0> Ranch listener ecache terminated with reason: call to undefined function jsx:encode([{<<"msg_type">>,<<"message_ack">>},{<<"sequence_id">>,<<"123">>},{<<"version">>,<<"v2.2">>},{<<"...">>,...},...])
+2018-04-08 10:01:16.420 [error] <0.187.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3295>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:01:16.421 [error] <0.187.0> gen_server <0.187.0> terminated with reason: timeout
+2018-04-08 10:01:16.421 [error] <0.187.0> CRASH REPORT Process <0.187.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:01:16.421 [error] <0.187.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:01:38.942 [error] <0.189.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3358>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:01:38.943 [error] <0.189.0> gen_server <0.189.0> terminated with reason: timeout
+2018-04-08 10:01:38.943 [error] <0.189.0> CRASH REPORT Process <0.189.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:01:38.943 [error] <0.189.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:01:41.725 [error] <0.190.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3359>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:01:41.725 [error] <0.190.0> gen_server <0.190.0> terminated with reason: timeout
+2018-04-08 10:01:41.725 [error] <0.190.0> CRASH REPORT Process <0.190.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:01:41.725 [error] <0.190.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:03:04.437 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 10:03:09.715 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 10:04:27.036 [error] <0.194.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3485>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:04:27.037 [error] <0.194.0> gen_server <0.194.0> terminated with reason: timeout
+2018-04-08 10:04:27.037 [error] <0.194.0> CRASH REPORT Process <0.194.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:04:27.037 [error] <0.194.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:04:34.439 [error] <0.196.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3486>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:04:34.439 [error] <0.196.0> gen_server <0.196.0> terminated with reason: timeout
+2018-04-08 10:04:34.439 [error] <0.196.0> CRASH REPORT Process <0.196.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:04:34.439 [error] <0.196.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:06:16.268 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 10:07:14.839 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 10:07:34.448 [error] <0.197.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3487>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:07:34.449 [error] <0.197.0> gen_server <0.197.0> terminated with reason: timeout
+2018-04-08 10:07:34.449 [error] <0.197.0> CRASH REPORT Process <0.197.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:07:34.449 [error] <0.197.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:08:34.454 [error] <0.199.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3488>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:08:34.454 [error] <0.199.0> gen_server <0.199.0> terminated with reason: timeout
+2018-04-08 10:08:34.454 [error] <0.199.0> CRASH REPORT Process <0.199.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:08:34.454 [error] <0.199.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:09:04.456 [error] <0.201.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3489>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:09:04.456 [error] <0.201.0> gen_server <0.201.0> terminated with reason: timeout
+2018-04-08 10:09:04.456 [error] <0.201.0> CRASH REPORT Process <0.201.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:09:04.456 [error] <0.201.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:11:34.464 [error] <0.202.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3490>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:11:34.465 [error] <0.202.0> gen_server <0.202.0> terminated with reason: timeout
+2018-04-08 10:11:34.465 [error] <0.202.0> CRASH REPORT Process <0.202.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:11:34.465 [error] <0.202.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:14:52.272 [error] emulator Error in process <0.160.0> on node 'test@127.0.0.1' with exit value:
+{badarg,[{erlang,binary_to_term,[[131,108,0,0,0,5,104,2,109,0,0,0,8,109,115,103,95,116,121,112,101,109,0,0,0,11,109,101,115,115,97,103,101,95,97,99,107,104,2,109,0,0,0,11,115,101,113,117,101,110,99,101,95,105,100,109,0,0,0,3,49,50,51,104,2,109,0,0,0,7,118,101,114,115,105,111,110,109,0,0,0,4,118,50,46,50,104,2,109,0,0,0,6,114,101,115,117,108,116,109,0,0,0,5,101,114,114,111,114,104,2,109,0,0,0,4,100,97,116,97,108,0,0,0,2,104,2,109,0,0,0,4,99,111,100,101,109,0,0,0,3,52,48,49,104,2,109,0,0,0,4,100,101,115,99,109,0,0,0,7,110,111,32,97,117,116,104,106,106]],[]},{tcp_client,decode,1,[{file,"src/tcp_client.erl"},{line,114}]},{tcp_client,loop,1,[{file,"src/tcp_client.erl"},{line,62}]}]}
+2018-04-08 10:15:17.964 [error] emulator Error in process <0.161.0> on node 'test@127.0.0.1' with exit value:
+{badarg,[{erlang,binary_to_term,[[131,108,0,0,0,5,104,2,109,0,0,0,8,109,115,103,95,116,121,112,101,109,0,0,0,11,109,101,115,115,97,103,101,95,97,99,107,104,2,109,0,0,0,11,115,101,113,117,101,110,99,101,95,105,100,109,0,0,0,3,49,50,51,104,2,109,0,0,0,7,118,101,114,115,105,111,110,109,0,0,0,4,118,50,46,50,104,2,109,0,0,0,6,114,101,115,117,108,116,109,0,0,0,5,101,114,114,111,114,104,2,109,0,0,0,4,100,97,116,97,108,0,0,0,2,104,2,109,0,0,0,4,99,111,100,101,109,0,0,0,3,52,48,49,104,2,109,0,0,0,4,100,101,115,99,109,0,0,0,7,110,111,32,97,117,116,104,106,106]],[]},{tcp_client,decode,1,[{file,"src/tcp_client.erl"},{line,114}]},{tcp_client,loop,1,[{file,"src/tcp_client.erl"},{line,62}]}]}
+2018-04-08 10:16:04.486 [error] <0.204.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3491>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:16:04.486 [error] <0.204.0> gen_server <0.204.0> terminated with reason: timeout
+2018-04-08 10:16:04.486 [error] <0.204.0> CRASH REPORT Process <0.204.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:16:04.486 [error] <0.204.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:16:34.487 [error] <0.208.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3492>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:16:34.488 [error] <0.208.0> gen_server <0.208.0> terminated with reason: timeout
+2018-04-08 10:16:34.488 [error] <0.208.0> CRASH REPORT Process <0.208.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:16:34.488 [error] <0.208.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:16:38.272 [error] emulator Error in process <0.163.0> on node 'test@127.0.0.1' with exit value:
+{badarg,[{erlang,binary_to_term,[[131,108,0,0,0,5,104,2,109,0,0,0,8,109,115,103,95,116,121,112,101,109,0,0,0,11,109,101,115,115,97,103,101,95,97,99,107,104,2,109,0,0,0,11,115,101,113,117,101,110,99,101,95,105,100,109,0,0,0,3,49,50,51,104,2,109,0,0,0,7,118,101,114,115,105,111,110,109,0,0,0,4,118,50,46,50,104,2,109,0,0,0,6,114,101,115,117,108,116,109,0,0,0,5,101,114,114,111,114,104,2,109,0,0,0,4,100,97,116,97,108,0,0,0,2,104,2,109,0,0,0,4,99,111,100,101,109,0,0,0,3,52,48,49,104,2,109,0,0,0,4,100,101,115,99,109,0,0,0,7,110,111,32,97,117,116,104,106,106]],[]},{tcp_client,decode,1,[{file,"src/tcp_client.erl"},{line,115}]},{tcp_client,loop,1,[{file,"src/tcp_client.erl"},{line,63}]}]}
+2018-04-08 10:16:47.202 [error] emulator Error in process <0.165.0> on node 'test@127.0.0.1' with exit value:
+{badarg,[{erlang,binary_to_term,[[131,108,0,0,0,5,104,2,109,0,0,0,8,109,115,103,95,116,121,112,101,109,0,0,0,11,109,101,115,115,97,103,101,95,97,99,107,104,2,109,0,0,0,11,115,101,113,117,101,110,99,101,95,105,100,109,0,0,0,3,49,50,51,104,2,109,0,0,0,7,118,101,114,115,105,111,110,109,0,0,0,4,118,50,46,50,104,2,109,0,0,0,6,114,101,115,117,108,116,109,0,0,0,5,101,114,114,111,114,104,2,109,0,0,0,4,100,97,116,97,108,0,0,0,2,104,2,109,0,0,0,4,99,111,100,101,109,0,0,0,3,52,48,49,104,2,109,0,0,0,4,100,101,115,99,109,0,0,0,7,110,111,32,97,117,116,104,106,106]],[]},{tcp_client,decode,1,[{file,"src/tcp_client.erl"},{line,115}]},{tcp_client,loop,1,[{file,"src/tcp_client.erl"},{line,63}]}]}
+2018-04-08 10:17:04.489 [error] <0.209.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3493>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:17:04.489 [error] <0.209.0> gen_server <0.209.0> terminated with reason: timeout
+2018-04-08 10:17:04.489 [error] <0.209.0> CRASH REPORT Process <0.209.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:17:04.489 [error] <0.209.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:18:08.272 [error] <0.211.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3494>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:18:08.273 [error] <0.211.0> gen_server <0.211.0> terminated with reason: timeout
+2018-04-08 10:18:08.273 [error] <0.211.0> CRASH REPORT Process <0.211.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:18:08.273 [error] <0.211.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:18:17.202 [error] <0.212.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3495>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:18:17.203 [error] <0.212.0> gen_server <0.212.0> terminated with reason: timeout
+2018-04-08 10:18:17.203 [error] <0.212.0> CRASH REPORT Process <0.212.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:18:17.203 [error] <0.212.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 10:59:34.575 [error] <0.228.0>@ecache_protocol:terminate:147 Reason = timeout, SockState = {sock_state,#Port<0.3496>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 10:59:34.576 [error] <0.228.0> gen_server <0.228.0> terminated with reason: timeout
+2018-04-08 10:59:34.576 [error] <0.228.0> CRASH REPORT Process <0.228.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 10:59:34.576 [error] <0.228.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 11:07:10.814 [error] <0.229.0>@ecache_protocol:terminate:146 Reason = timeout, SockState = {sock_state,#Port<0.3497>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 11:07:10.815 [error] <0.229.0> gen_server <0.229.0> terminated with reason: timeout
+2018-04-08 11:07:10.815 [error] <0.229.0> CRASH REPORT Process <0.229.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 11:07:10.815 [error] <0.229.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 11:24:40.892 [error] <0.246.0> gen_server <0.246.0> terminated with reason: no function clause matching ecache_protocol:terminate(error_message, ok) line 146
+2018-04-08 11:24:40.893 [error] <0.246.0> CRASH REPORT Process <0.246.0> with 0 neighbours exited with reason: no function clause matching ecache_protocol:terminate(error_message, ok) line 146 in gen_server:terminate/7 line 800
+2018-04-08 11:24:40.893 [error] <0.246.0> Ranch listener ecache terminated with reason: no function clause matching ecache_protocol:terminate(error_message, ok) line 146
+2018-04-08 11:25:10.890 [error] <0.234.0>@ecache_protocol:terminate:149 Reason = timeout, SockState = {sock_state,#Port<0.3499>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 11:25:10.891 [error] <0.234.0> gen_server <0.234.0> terminated with reason: timeout
+2018-04-08 11:25:10.891 [error] <0.234.0> CRASH REPORT Process <0.234.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 11:25:10.891 [error] <0.234.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 11:25:40.892 [error] <0.244.0>@ecache_protocol:terminate:149 Reason = timeout, SockState = {sock_state,#Port<0.3502>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 11:25:40.893 [error] <0.244.0> gen_server <0.244.0> terminated with reason: timeout
+2018-04-08 11:25:40.893 [error] <0.244.0> CRASH REPORT Process <0.244.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 11:25:40.893 [error] <0.244.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 11:25:46.369 [error] <0.245.0>@ecache_protocol:terminate:149 Reason = timeout, SockState = {sock_state,#Port<0.3503>,ranch_tcp,'STATUS_WAITING_AUTH',undefined}
+2018-04-08 11:25:46.370 [error] <0.245.0> gen_server <0.245.0> terminated with reason: timeout
+2018-04-08 11:25:46.370 [error] <0.245.0> CRASH REPORT Process <0.245.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 11:25:46.370 [error] <0.245.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 11:27:34.909 [error] <0.249.0> gen_server <0.249.0> terminated with reason: no function clause matching ecache_protocol:terminate(error_message, ok) line 146
+2018-04-08 11:27:34.910 [error] <0.249.0> CRASH REPORT Process <0.249.0> with 0 neighbours exited with reason: no function clause matching ecache_protocol:terminate(error_message, ok) line 146 in gen_server:terminate/7 line 800
+2018-04-08 11:27:34.910 [error] <0.249.0> Ranch listener ecache terminated with reason: no function clause matching ecache_protocol:terminate(error_message, ok) line 146
+2018-04-08 11:37:44.193 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:37:51.868 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:38:05.555 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:38:35.556 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:39:05.557 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:39:35.558 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:40:05.559 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:40:35.560 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:41:05.561 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:41:35.562 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:42:05.563 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:42:35.564 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:43:05.565 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:43:35.566 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 11:44:05.568 [error] emulator Bad value on output port 'tcp_inet'
+
+2018-04-08 12:01:35.633 [error] <0.255.0>@ecache_protocol:terminate:153 Reason = timeout, SockState = {sock_state,#Port<0.3507>,ranch_tcp,'STATUS_AUTHED',undefined}
+2018-04-08 12:01:35.633 [error] <0.255.0> gen_server <0.255.0> terminated with reason: timeout
+2018-04-08 12:01:35.634 [error] <0.255.0> CRASH REPORT Process <0.255.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 12:01:35.634 [error] <0.255.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 13:06:45.012 [error] <0.267.0>@ecache_protocol:terminate:153 Reason = timeout, SockState = {sock_state,#Port<0.3510>,ranch_tcp,'STATUS_AUTHED',undefined}
+2018-04-08 13:06:45.012 [error] <0.267.0> gen_server <0.267.0> terminated with reason: timeout
+2018-04-08 13:06:45.012 [error] <0.267.0> CRASH REPORT Process <0.267.0> with 0 neighbours exited with reason: timeout in gen_server:terminate/7 line 812
+2018-04-08 13:06:45.013 [error] <0.267.0> Ranch listener ecache terminated with reason: timeout
+2018-04-08 13:30:55.498 [error] <0.282.0>@ecache_protocol:terminate:153 Reason = {undef,[{format,io,["~p",[testsssss]],[]},{ecache_protocol,process_data,5,[{file,"src/ecache_protocol.erl"},{line,180}]},{ecache_protocol,handle_info,2,[{file,"src/ecache_protocol.erl"},{line,101}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}, SockState = {sock_state,#Port<0.3511>,ranch_tcp,'STATUS_AUTHED',undefined}
+2018-04-08 13:30:55.499 [error] <0.282.0> gen_server <0.282.0> terminated with reason: {'module could not be loaded',[{format,io,["~p",[testsssss]],[]},{ecache_protocol,process_data,5,[{file,"src/ecache_protocol.erl"},{line,180}]},{ecache_protocol,handle_info,2,[{file,"src/ecache_protocol.erl"},{line,101}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,601}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,667}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2018-04-08 13:30:55.499 [error] <0.282.0> CRASH REPORT Process <0.282.0> with 0 neighbours exited with reason: call to undefined function format:io("~p", [testsssss]) in gen_server:terminate/7 line 812
+2018-04-08 13:30:55.499 [error] <0.282.0> Ranch listener ecache terminated with reason: call to undefined function format:io("~p", [testsssss])
