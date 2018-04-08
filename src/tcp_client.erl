@@ -3,6 +3,7 @@
 -export([client/0,
          client/1,
          execute/0,
+         call/1,
          test/0,
          loop/1,
          connect/0,
@@ -98,27 +99,39 @@ get_pid_by_client_id(ClientId) ->
 
 auth() ->
     ClientId = get_client_id(),
-    SeqId = <<"auth">>,
+    SeqId = seq_id(),
     M = [{<<"msg_type">>, <<"check_auth">>},
          {<<"seq_id">>, SeqId},
-         {<<"qos">>, 2},
          {<<"key">>, <<"EFFC047E2A226960B3EF1E81992CBECD">>}
         ],
     send_message(ClientId, M).
 
 
+call({M, F, A}) ->
+    ClientId = get_client_id(),
+    SeqId = seq_id(),
+    Msg = [{<<"msg_type">>, <<"execute">>},
+           {<<"seq_id">>, SeqId},
+           {<<"m">>, M},
+           {<<"f">>, F},
+           {<<"a">>, A}],
+    send_message(ClientId, Msg).
+
+
+
 execute() ->
     ClientId = get_client_id(),
-    SeqId = <<"auth">>,
+    SeqId = seq_id(),
     M = [{<<"msg_type">>, <<"execute">>},
          {<<"seq_id">>, SeqId},
-         {<<"qos">>, 2},
          {<<"m">>, io},
          {<<"f">>, format},
-         {<<"a">>, ["~p", [testsssss]]}
+         {<<"a">>, ["~p~n", [testsssss]]}
         ],
     send_message(ClientId, M).
 
+seq_id() ->
+    os:timestamp().
 
 
 encode(Msg) ->
