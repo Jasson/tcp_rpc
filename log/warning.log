@@ -356,3 +356,5 @@
 2018-04-08 14:27:58.110 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
 2018-04-08 14:28:28.112 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
 2018-04-08 14:28:58.114 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:29:28.116 [warning] <0.213.0>@tcp_client:loop:60 error, timeout
+2018-04-08 14:29:57.746 [warning] <0.213.0>@tcp_client:loop:60 error, timeout

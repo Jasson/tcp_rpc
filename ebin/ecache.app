@@ -1,9 +1,0 @@
-{application,ecache,
-             [{description,[]},
-              {vsn,"1"},
-              {registered,[]},
-              {applications,[kernel,stdlib]},
-              {mod,{ecache_app,[]}},
-              {env,[]},
-              {modules,[ecache_app,ecache_protocol,ecache_sup,reloader,
-                        tcp_client]}]}.
