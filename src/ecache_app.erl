@@ -10,9 +10,16 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
+    application:ensure_all_started(lager),
     application:ensure_all_started(ranch),
+    Opts = [{active, true}, 
+            binary, 
+            {reuseaddr, true},
+            {high_watermark, 131072},
+            {low_watermark, 65536},
+            {packet, 2}],
     {ok, _} = ranch:start_listener(ecache, 10,
-		ranch_tcp, [{port, 5554}], ecache_protocol, []),
+		ranch_tcp, [{port, 5554}], ecache_protocol, Opts),
     ecache_sup:start_link().
 
 

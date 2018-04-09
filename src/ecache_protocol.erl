@@ -44,22 +44,15 @@ start_link(Ref, Socket, Transport, Opts) ->
 %% we can use the -behaviour(gen_server) attribute.
 init([]) -> {ok, undefined}.
 
-init(Ref, Socket, Transport, _Opts = []) ->
-    lager:debug("Ref = ~p, Socket = ~p, Transport = ~p", [Ref, Socket, Transport]),
+init(Ref, Socket, Transport, Opts) ->
+    lager:debug("Ref = ~p, Socket = ~p, Transport = ~p, Opts = ~p", [Ref, Socket, Transport, Opts]),
     ok = proc_lib:init_ack({ok, self()}),
     ok = ranch:accept_ack(Ref),
     case Transport of 
         ranch_tcp ->
-            ok = Transport:setopts(Socket, [{active, true}, 
-                                            binary, 
-                                            {reuseaddr, true},
-                                            {high_watermark, 131072},
-                                            {low_watermark, 65536},
-                                            {packet, 2}]);
+            ok = Transport:setopts(Socket, Opts);
         ranch_ssl ->
-            ok = Transport:setopts(Socket, [{active, once}, 
-                                            binary, 
-                                            {packet, 2}])
+            ok = Transport:setopts(Socket, Opts)
     end,
 
     gen_server:enter_loop(?MODULE, [], #sock_state{socket = Socket, 
@@ -69,7 +62,7 @@ init(Ref, Socket, Transport, _Opts = []) ->
 handle_info({_TcpOrSSL, Socket, Data}, #sock_state{socket = Socket, 
                                              auth = ?STATUS_WAITING_AUTH, 
                                              transport = Transport} = SockState ) ->
-    Transport:setopts(Socket, [{active, once}]),
+    %%Transport:setopts(Socket, [{active, once}]),
     NewSockState = 
         case check_data(Data) of
             true ->
@@ -94,7 +87,7 @@ handle_info({_TcpOrSSL, Socket, Data}, #sock_state{socket = Socket,
     {noreply, NewSockState, ?K_TIMEOUT};
 handle_info({_TcpOrSSL, Socket, Data}, #sock_state{socket = Socket, 
                                              transport = Transport} = SockState) ->
-    Transport:setopts(Socket, [{active, once}]),
+    %%Transport:setopts(Socket, [{active, once}]),
 
     Message = decode(Data),
     NewSockState = 

@@ -36,7 +36,8 @@ connect() ->
 connect(ClientId) ->
     Ip = get_ip(),
     Port = get_tcp_port(),
-    {ok, Sock} = gen_tcp:connect(Ip, Port, [{active, false},
+    %{ok, Sock} = gen_tcp:connect(Ip, Port, [{active, false},
+    {ok, Sock} = gen_tcp:connect(Ip, Port, [{active, true},
                                             binary,
                                             {packet, 2}]),
     Name = list_to_atom(ClientId),
@@ -142,6 +143,8 @@ decode(Msg) ->
 
 test() ->
     connect(),
+    auth(),
+    execute(),
     ok.
 start() ->
     ok.
