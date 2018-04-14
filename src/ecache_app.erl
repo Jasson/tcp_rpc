@@ -13,6 +13,8 @@ start(_StartType, _StartArgs) ->
     application:ensure_all_started(lager),
     application:ensure_all_started(ranch),
     Opts = [{active, true}, 
+    %Opts = [{active, false}, 
+    %Opts = [{active, once}, 
             binary, 
             {reuseaddr, true},
             {high_watermark, 131072},

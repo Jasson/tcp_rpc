@@ -5,6 +5,7 @@
          execute/0,
          call/1,
          test/0,
+         loop_true/1,
          loop/1,
          connect/0,
          connect/1,
@@ -36,8 +37,8 @@ connect() ->
 connect(ClientId) ->
     Ip = get_ip(),
     Port = get_tcp_port(),
-    %{ok, Sock} = gen_tcp:connect(Ip, Port, [{active, false},
-    {ok, Sock} = gen_tcp:connect(Ip, Port, [{active, true},
+    {ok, Sock} = gen_tcp:connect(Ip, Port, [{active, false},
+    %{ok, Sock} = gen_tcp:connect(Ip, Port, [{active, true},
                                             binary,
                                             {packet, 2}]),
     Name = list_to_atom(ClientId),
@@ -54,6 +55,8 @@ connect(ClientId) ->
     spawn_link(?MODULE, loop, [{Sock, ClientId}]),
     Sock.
 
+loop_true({Sock, ClientId}) ->
+    ok.
 loop({Sock, ClientId}) ->
     case gen_tcp:recv(Sock, 0, 30000) of
         {error, ebadf} ->
@@ -62,6 +65,12 @@ loop({Sock, ClientId}) ->
             lager:warning("error, timeout"),
             keepalive(ClientId),
             loop({Sock, ClientId});
+        {error, einval} ->
+                lager:warning("error, einval");
+        {error, closed} ->
+                lager:warning("error, closed");
+        {error, Error} ->
+                lager:warning("error, Error");
         {ok, A} ->
             lager:debug("A = ~p", [A]),
             lager:debug("A = ~p", [decode(A)]),

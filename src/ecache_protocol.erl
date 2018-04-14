@@ -16,7 +16,7 @@
 -export([terminate/2]).
 -export([code_change/3]).
 
--define(K_TIMEOUT, 90000).
+-define(K_TIMEOUT, 9000000).
 
 % ---------------------------------------------------------------------------
 % @doc 进程状态
@@ -62,7 +62,7 @@ init(Ref, Socket, Transport, Opts) ->
 handle_info({_TcpOrSSL, Socket, Data}, #sock_state{socket = Socket, 
                                              auth = ?STATUS_WAITING_AUTH, 
                                              transport = Transport} = SockState ) ->
-    %%Transport:setopts(Socket, [{active, once}]),
+    Transport:setopts(Socket, [{active, once}]),
     NewSockState = 
         case check_data(Data) of
             true ->
@@ -87,7 +87,7 @@ handle_info({_TcpOrSSL, Socket, Data}, #sock_state{socket = Socket,
     {noreply, NewSockState, ?K_TIMEOUT};
 handle_info({_TcpOrSSL, Socket, Data}, #sock_state{socket = Socket, 
                                              transport = Transport} = SockState) ->
-    %%Transport:setopts(Socket, [{active, once}]),
+    Transport:setopts(Socket, [{active, once}]),
 
     Message = decode(Data),
     NewSockState = 
@@ -173,8 +173,8 @@ process_data(<<"execute">>, Socket, Transport, Data, SockState) ->
     M = proplists:get_value(<<"m">>, Data),
     F = proplists:get_value(<<"f">>, Data),
     A = proplists:get_value(<<"a">>, Data),
-    apply(M, F, A),
-    Transport:send(Socket, encode(Data)),
+    Result = apply(M, F, A),
+    Transport:send(Socket, encode(Result)),
     SockState;
 process_data(MsgType, Socket, Transport, Data, SockState) ->
     lager:debug("Transport = ~p, Socket=~p, Data = ~p", [Transport, Socket, Data]),
