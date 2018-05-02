@@ -169,7 +169,7 @@ process_data(<<"check_auth">>, Socket, Transport, Message, SockState) ->
     end;
 
 process_data(<<"execute">>, Socket, Transport, Data, SockState) ->
-    lager:debug("Transport = ~p, Socket=~p, Data = ~p", [Transport, Socket, Data]),
+    lager:debug("Transport = ~p, Socket=~p, Data = ~p, now()= ~p", [Transport, Socket, Data, now()]),
     M = proplists:get_value(<<"m">>, Data),
     F = proplists:get_value(<<"f">>, Data),
     A = proplists:get_value(<<"a">>, Data),

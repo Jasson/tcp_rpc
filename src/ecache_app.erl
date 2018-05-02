@@ -21,7 +21,7 @@ start(_StartType, _StartArgs) ->
             {low_watermark, 65536},
             {packet, 2}],
     {ok, _} = ranch:start_listener(ecache, 10,
-		ranch_tcp, [{port, 5554}], ecache_protocol, Opts),
+                ranch_tcp, [{port, 5554}, {max_connections, infinity}], ecache_protocol, Opts),
     ecache_sup:start_link().
 
 
