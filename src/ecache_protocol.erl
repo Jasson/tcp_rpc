@@ -174,7 +174,14 @@ process_data(<<"execute">>, Socket, Transport, Data, SockState) ->
     F = proplists:get_value(<<"f">>, Data),
     A = proplists:get_value(<<"a">>, Data),
     Result = apply(M, F, A),
-    Transport:send(Socket, encode(Result)),
+    lager:warning("process_dataResult = ~p", [Result]),
+    case Transport:send(Socket, encode(Result)) of
+        ok ->
+           lager:warning("process_dataok = ~p", [ok]),
+           ok;
+        Error ->
+           lager:warning("process_dataError = ~p", [Error])
+    end,
     SockState;
 process_data(MsgType, Socket, Transport, Data, SockState) ->
     lager:debug("Transport = ~p, Socket=~p, Data = ~p", [Transport, Socket, Data]),
